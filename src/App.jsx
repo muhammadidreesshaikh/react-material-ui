@@ -10,9 +10,9 @@ function App() {
         Hello World!
       </Typography>
 
-      <Button variant='contained'>Click Me</Button>
-      <Button variant='text'>Click Me</Button>
-      <Button variant='outlined'>Click Me</Button>
+      <Button variant='contained' color='success' sx={{mt: "10px"}}>Click Me</Button>
+      <Button variant='text' color='secondary' sx={{marginRight: "40px"}}>Click Me</Button>
+      <Button variant='outlined' color='error' onClick={() => alert("you clicked")}>Click me for action</Button>
     </div>
   )
 }
